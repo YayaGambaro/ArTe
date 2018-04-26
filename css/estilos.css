@@ -1,0 +1,154 @@
+/************
+Generales
+*************/
+
+body,html{
+    font-family: 'Poppins', sans-serif !important;
+    text-rendering: optimizeLegibility;
+} 
+
+.spinner{
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 2px 1px 0px #674896 !important;
+}
+
+/************
+Menu
+*************/
+.nav-container .nav-bar{
+    border:0;
+    background-color: white;
+    height: 100%;
+}
+.nav-container .nav-bar a{
+    height: 100% !important;
+    padding: 10px 0;
+}
+.nav-container .nav-bar .menu{
+    padding-top: 3%;
+}
+.nav-container .nav-bar .menu li a{
+    color: black !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 1;
+}
+.nav-container .nav-bar .menu li a:hover,
+.nav-container .nav-bar .menu li a:active{
+    color: #674896 !important;
+    font-weight: 700;
+}
+.module.widget-handle{
+    border: 0 !important;
+    color: #674896;
+}
+@media all and (max-width: 990px) {
+    .nav-container .nav-bar{
+        max-height: 140px;
+    }
+    .nav-container .nav-bar .menu{
+    padding-top: 0px;
+}
+}
+/************
+Header
+*************/
+#home{
+    background-color: #afbcf3 !important;
+}
+@font-face {
+	font-family: 'carrington';
+	src: url(../fonts/carrington/Carrington-webfont.woff);
+}
+
+#home h1{
+    font-family: 'carrington';
+    color: black;
+    text-shadow: 4px -2px 0px rgba(255, 255, 255, 1);
+    line-height: 100%;
+}
+
+@media (max-width: 767px){
+    .background-image-holder {
+        background-size: 150% !important;
+        background-repeat: no-repeat !important;
+        height: 100% !important;
+    }
+    #home{
+        padding: 25% 5px;
+    }
+    
+}
+/************
+Contenido
+*************/
+
+/*
+Seccion 1
+*************/
+#nosotros{
+    padding: 50px 0;
+    background-color: #674896;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+#nosotros p{
+    font-size: 18px;
+}
+#nosotros p.lead{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+/*
+Seccion 2
+*************/
+#productos{
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+#productos h1{
+    color: #674896;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    line-height: 0.7;
+    letter-spacing: normal;
+}
+
+/************
+Footer
+*************/
+
+#contacto{
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 300;
+    background-color: white;
+    border-top: 3px solid #674896;
+    width: 100%;
+    display: inline-block;
+    padding: 50px 0;
+}
+
+#contacto .widget{
+    margin-bottom: 0;
+}
+#contacto i{
+    color: black;
+    padding-right: 5px;
+}
+#contacto .i-name, #contacto a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 400;    
+}
+
+@media all and (max-width: 768px) {
+    #contacto #logo,
+    #contacto .widget{
+        text-align: center !important; 
+        padding-top: 10px; 
+    }
+}
